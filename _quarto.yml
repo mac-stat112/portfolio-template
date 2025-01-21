@@ -5,31 +5,58 @@ project:
 book:
   title: "COMP/STAT112 Notebook"
   author: "Your Name Here"
-  date: "Date Here"
+  date: today
   reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
+  
+  
+  sidebar:
+    title: "COMP/STAT112"
+    subtitle: "Your Name Here"
+    collapse-level: 2
+    style: "docked"
+    pinned: true
+    search: true
+  
   
   chapters:
     - index.qmd
 
-    - part: activities/README.qmd
+    - part: "Best Work"
       chapters: 
-      - activities/activity-01.qmd
-      - activities/activity-02.qmd
-      - activities/activity-03.qmd
-    
-    - part: notes/README.qmd
+      - bw/bw-uni.qmd
+      - bw/bw-bi.qmd
+      - bw/bw-tri.qmd
+      - bw/bw-quad.qmd
+      - bw/bw-spatial.qmd
+
+    - part: "In-class Activities"
       chapters: 
-      - notes/note-01.qmd
-      - notes/note-02.qmd
+      - ica/ica-uni.qmd
+      - ica/ica-bi.qmd
+      - ica/ica-multi.qmd
+      - ica/ica-spatial.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     toc: true
+    toc-depth: 3
+    link-external-newwindow: true
+    css: style/custom.css
     code-copy: true
+    code-link: true
     code-line-numbers: true
     code-tools: true
 
 execute:
   cache: false
   freeze: auto
+
+editor: 
+  markdown:
+    wrap: sentence # Forces each sentence to be on its own line in source markdown, however, it doesn't affect how it is rendered
