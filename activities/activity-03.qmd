@@ -1,5 +1,0 @@
----
-title: "Activity 03"
----
-
-Use this file for practice in-class activity.  Change the title (in the YAML header above) to reflect name of the activity.
