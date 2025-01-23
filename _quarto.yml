@@ -13,8 +13,7 @@ book:
   
   
   sidebar:
-    title: "COMP/STAT112"
-    subtitle: "Your Name Here"
+    title: "Your Name Here"
     collapse-level: 2
     style: "docked"
     pinned: true
