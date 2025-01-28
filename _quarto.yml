@@ -2,6 +2,8 @@ project:
   type: book
   output-dir: docs
 
+
+
 book:
   title: "COMP/STAT112 Notebook"
   author: "Your Name Here"
@@ -10,16 +12,16 @@ book:
   page-navigation: true
   back-to-top-navigation: true
   bread-crumbs: true
-  
-  
+
+
   sidebar:
     title: "Your Name Here"
     collapse-level: 2
     style: "docked"
     pinned: true
     search: true
-  
-  
+
+
   chapters:
     - index.qmd
 
@@ -38,6 +40,8 @@ book:
       - ica/ica-multi.qmd
       - ica/ica-spatial.qmd
 
+
+
 format:
   html:
     theme:
@@ -52,9 +56,13 @@ format:
     code-line-numbers: true
     code-tools: true
 
+
+
 execute:
   cache: false
   freeze: auto
+
+
 
 editor: 
   markdown:
