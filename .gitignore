@@ -7,7 +7,7 @@
 /.quarto/
 /docs
 /_site
-/*_files/
+*_files/
 /site_libs
 *.html
 _freeze/
