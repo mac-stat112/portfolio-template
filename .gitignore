@@ -8,6 +8,12 @@
 /docs
 /_site
 *_files/
+/*/*_files/
 /site_libs
 *.html
+*.tex
+*.log
+*.aux
+*.toc
+/*/*_cache
 _freeze/
